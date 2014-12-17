@@ -1,0 +1,21 @@
+object:hover { border: 0 none; } /* http://markmail.org/message/fd43pqqw255k324k */
+
+#billboard {
+	text-align: center;
+	height: 90px; /* Use an inline 'height' style if tease ad is shorter/taller than 90px. */
+	background: #fff url(images/loader.gif) no-repeat center center;
+}
+#billboard object,
+#billboard div {
+	width: 100% !important;
+	height: 100% !important;
+}
+#billboard object {
+	margin: 0 auto;
+	display: block;
+}
+#billboard div {
+	display: none; /* JS controls visibility. */
+	overflow: hidden; /* Otherwise we get scrollbars. */
+}
+#billboard { overflow: auto !important; } /* Needed for Firefox! See: http://dev.jquery.com/ticket/4872 */

@@ -1,0 +1,21 @@
+/* Embeded: */
+
+html, body {
+	margin: 0;
+	padding: 0;
+	background-color: #fff;
+}
+
+/* Found in global RG styles: */
+
+.center,
+.center * {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+object.center,
+.center object { display: block; }
+.center input { width: auto; } /* Moved from forms.css on 08/05/09 by ~mh. */
+
+#billboard { overflow: auto !important; } /* Needed for Firefox! See: http://dev.jquery.com/ticket/4872 */

@@ -1,0 +1,39 @@
+/*
+** 
+**             File: adverts.css
+**          Created: 10/13/09
+**         Modified: 10/13/09
+**          Creator: Micky Hulse
+**           Author: Micky Hulse
+** 
+*/
+
+	/*----------( GLOBALS: )---------*/
+		
+		object:hover { border: 0 none; } /* http://markmail.org/message/fd43pqqw255k324k */
+
+	/*----------( PENCIL LEAVE BEHIND: )---------*/
+		
+		#billboard {
+			height: 30px; /* Use an inline 'height' style if tease ad is shorter/taller than 30px. */
+			display: none; /* JS controls visibility. */
+		}
+		#billboard object {
+			width: 100% !important;
+			height: 100% !important;
+		}
+
+	/*----------( PAGE PEEL: )---------*/
+		
+		#peel {
+			position: absolute;
+			top: 0;
+			right: 0;
+			z-index: 999;
+			width: 100px;
+			height: 100px;
+			text-align: right;
+			overflow: hidden;
+			display: none; /* JS controls visibility. */
+		}
+		
