@@ -2,6 +2,30 @@
 
 **Pencil leave behind advertisement.**
 
+<p align="center">
+	<a href="billboard-example.png">
+		<img width="1110" src="billboard-example.png">
+	</a>
+</p>
+
+Example ad (not designed by me).
+
+<p align="center">
+	<a href="billboard-guide-tease.png">
+		<img width="1110" src="billboard-guide-tease.png">
+	</a>
+</p>
+
+The “tease” guide.
+
+<p align="center">
+	<a href="billboard-guide-advert.png">
+		<img width="1110" src="billboard-guide-advert.png">
+	</a>
+</p>
+
+The “advert” guide.
+
 ## Features:
 
 * Communicates with [javascript](http://en.wikipedia.org/wiki/JavaScript)/[jQuery](http://jquery.com/).
